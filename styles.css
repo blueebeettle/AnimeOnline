@@ -1,10 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 img {
     width: 100px;
     height: 100px;
 }
 
 header {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#download {
+    display: block;
+    border: 2px solid;
+    border-color: #ffc8dd;
+    margin: 20px auto;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #ffc8dd;
+    color: black;
+    border-radius: 10px;
+    transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+#download:active,
+#downlaod:focus,
+#download:hover {
+    background-color: #cdb4db;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 3px #cdb4db;
 }
