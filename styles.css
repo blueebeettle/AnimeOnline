@@ -28,6 +28,7 @@ header {
     color: black;
     border-radius: 10px;
     transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    -webkit-tap-higlight-color: transparent;
 }
 
 #download:active,
@@ -37,8 +38,4 @@ header {
     transform: translateY(-2px);
     box-shadow: 0 3px 3px #cdb4db;
 
-}
-
-#download::selection {
-    color: none;
 }
