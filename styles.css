@@ -16,24 +16,27 @@ body {
 }
 
 #logo {
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 5%;
     margin: 1rem;
 }
 
+header p {
+
+    font-size: small;
+    font-weight: 600;
+}
 
 header {
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: start;
-    flex-wrap: wrap;
     color: #590D86;
-
 }
 
 .header {
-    margin: auto 33%;
+    margin: auto 34%;
 
 }
 
@@ -64,13 +67,12 @@ hr {
 #downlaod:focus,
 #download:hover {
     transform: translateY(-2px);
-    box-shadow: 0 3px 3px #590D86;
+    box-shadow: 0 4px 8px #590D86;
 
 }
 
 footer {
     text-align: center;
-    background-color: #9F91CC;
 }
 
 @media (max-width:950px) {
