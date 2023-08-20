@@ -13,97 +13,60 @@ body {
     color: white;
     font-weight: bold;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 #logo {
-    width: 5%;
-    height: 5%;
+    height: 5rem;
+    width: 5rem;
     margin: 1rem;
 }
 
-header p {
-
-    font-size: small;
-    font-weight: 600;
-}
-
-header {
-    text-align: center;
+.heading {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    justify-content: space-between;
+}
+
+#heading {
+    align-self: center;
+    margin: 2rem;
+    font-size: 1.5rem;
     color: #590D86;
 }
 
-.header {
-    margin: auto 34%;
-
-}
-
-hr {
-
-    border: 0;
-    border-top: 1px solid #590D86;
-}
-
-#download {
-    font-size: 1em;
-    display: block;
-
-    margin: 20px auto;
-    width: 100px;
+#tagline {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
     text-align: center;
-    text-decoration: none;
-    font-weight: 600;
     color: #590D86;
-    border-radius: 10px;
-    transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.2s ease-in-out;
-    cursor: pointer;
-    padding: 0.1em 0;
-    outline: #590D86 solid 3px;
+    font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-#download:active,
-#downlaod:focus,
-#download:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px #590D86;
-
-}
-
-footer {
-    text-align: center;
-}
-
-@media (max-width:950px) {
-    .header {
-        margin: auto 0.8rem;
-        flex: 200px;
-    }
-
-    #logo {
-        width: 25%;
-        height: 25%;
-        margin: 1rem;
-    }
+#about {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-around;
+    background-color: #ba7dd6;
+    flex-wrap: wrap;
+    align-content: center;
 
 }
 
-@media (min-width: 950px) and (max-width: 1450px) {
+#about-screenshot {
+    width: 20rem;
 
-    .header {
-        margin: auto 20%;
-    }
-
-    #logo {
-        width: 25%;
-        height: 25%;
-        margin: 1rem;
-    }
 }
 
-@media (min-width: 950px) and (max-width: 979px) {
-    .header {
-        margin: auto 18%;
+h2 {
+    font-size: 2rem;
+
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
     }
 }
