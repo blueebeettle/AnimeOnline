@@ -72,7 +72,8 @@ body {
 #what-is-para {
     width: 35rem;
     font-size: 1.4rem;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #para2 {
