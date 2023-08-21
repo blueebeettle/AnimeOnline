@@ -61,12 +61,64 @@ body {
 
 h2 {
     font-size: 2rem;
-
+    margin: 2rem 1rem 0.8rem;
 }
 
+#what-is {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#what-is-para {
+    width: 35rem;
+    font-size: 1.4rem;
+}
+
+#para2 {
+    font-weight: bold;
+}
+
+#download {
+    font-size: 1em;
+    display: block;
+
+    margin: 20px auto;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #590D86;
+    border-radius: 10px;
+    transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 0.1em 0;
+    outline: #590D86 solid 3px;
+}
+
+#download:active,
+#downlaod:focus,
+#download:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px #590D86;
+
+}
 
 @media (max-width: 768px) {
     html {
         font-size: 14px;
+    }
+
+    #what-is-para {
+        width: 25rem;
+        margin-top: 8rem;
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        margin-top: 8rem;
     }
 }
